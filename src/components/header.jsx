@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div className="flex pt-6 flex-col h-24 mx-auto pl-10 bg-slate-100">
+    <div className="flex pt-4 flex-col h-24 mx-auto text-center md:text-left md:pl-10 bg-slate-100">
       <h1 className="text-3xl font-bold text-slate-800">Hazard x Outrage</h1>
 
       <p className="text-lg font-semibold text-slate-700">
