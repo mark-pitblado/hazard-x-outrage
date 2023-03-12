@@ -46,42 +46,52 @@ const NoHazardOutrage = () => {
           <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
             <div class="flex flex-col justify-start p-6">
               <h5 class="mb-2 text-xl font-medium text-slate-100">
-                Covid-19 Pandemic
+                Genetically Modified Foods (GMO)
               </h5>
               <p class="mb-4 text-base text-slate-200">
-                As the coronavirus spread around the world, people became scared
-                in the face of uncertainty. Governments, international agencies
-                and health organizations held daily news conferences to update
-                the public on the latest information, and what the guidelines
-                were for staying safe.
+                Substances that are deemed "unnatural" can elicit backlash.
+                Gentically modified foods are a good example of this, with only{" "}
+                <a
+                  href="https://www.pewresearch.org/science/2015/01/29/public-and-scientists-views-on-science-and-society/"
+                  className="underline bold"
+                >
+                  37% of the American population believing GMOs are safe.
+                </a>{" "}
+                Research{" "}
+                <a
+                  href="https://doi.org/10.1038/s41562-018-0520-3"
+                  className="underline bold"
+                >
+                  has shown
+                </a>{" "}
+                that those who are most opposed to GMOs know the least about the
+                topic, but think they know the most. This needs to be accounted
+                for when conducting surveys, as the difference between
+                subjective known and objective knowledge can be great.
               </p>
             </div>
           </div>
           <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
             <div class="flex flex-col justify-start p-6">
               <h5 class="mb-2 text-xl font-medium text-slate-100">
-                Covid-19 Pandemic
+                Vaccines and Autism
               </h5>
               <p class="mb-4 text-base text-slate-200">
-                As the coronavirus spread around the world, people became scared
-                in the face of uncertainty. Governments, international agencies
-                and health organizations held daily news conferences to update
-                the public on the latest information, and what the guidelines
-                were for staying safe.
-              </p>
-            </div>
-          </div>
-          <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
-            <div class="flex flex-col justify-start p-6">
-              <h5 class="mb-2 text-xl font-medium text-slate-100">
-                Covid-19 Pandemic
-              </h5>
-              <p class="mb-4 text-base text-slate-200">
-                As the coronavirus spread around the world, people became scared
-                in the face of uncertainty. Governments, international agencies
-                and health organizations held daily news conferences to update
-                the public on the latest information, and what the guidelines
-                were for staying safe.
+                The belief that there is a causal link between vaccines and
+                autism is so prevalant, that there are{" "}
+                <a
+                  href="https://doi.org/10.7326/M18-2101"
+                  className="underline bold"
+                >
+                  studies published
+                </a>{" "}
+                within the last five years still seeking to dispel this myth.
+                Answering concerns on this issue is both incredibly important
+                but also incredibly difficult, as a lot of belief stems from not
+                trusting scientists or public communicators in the first place.
+                Individual conversations between care providers and their
+                patients are likely the best way to address this issue slowly
+                over time.
               </p>
             </div>
           </div>
