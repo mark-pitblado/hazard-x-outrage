@@ -1,23 +1,22 @@
 import React from "react";
-import BackToHomeButton from "./home_button";
 
 const HazardOutrage = () => {
   return (
-    <div className="flex overflow-x-hidden w-full h-screen bg-red-100">
-      <div className="flex flex-col pl-20 pt-20">
-        <h1 className="text-7xl font-bold underline-offset-2 border-b-2 border-slate-700 text-slate-800">
+    <div className="flex overflow-x-hidden w-full h-100 lg:h-screen bg-red-100">
+      <div className="flex flex-col lg:pl-20 pt-20">
+        <h1 className="text-7xl font-bold px-5 lg:px-0 lg:underline-offset-2 border-b-2 border-slate-700 text-slate-800">
           Hazard and Outrage
         </h1>
-        <p className="text-slate-800 text-left mt-10 text-2xl">
+        <p className="text-slate-800 px-5 lg:px-0 text-left mt-10 text-2xl">
           In situations where there is a clear and present danger that people
           recognize, you are likely dealing with an emergency. During crisis,
           people want messaging that is consistent and authoritative.
         </p>
-        <h2 className="text-4xl font-bold underline-offset-2 border-b-2 border-slate-700 text-slate-800 mt-10">
+        <h2 className="text-4xl font-bold px-5 lg:px-0 underline-offset-2 border-b-2 border-slate-700 text-slate-800 mt-10">
           Examples
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10">
-          <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10 px-5 lg:px-0 mb-5 lg:mb-0">
+          <div class="group relative bg-slate-800 shadow-lg md:max-w-xl lg:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
             <div class="flex flex-col justify-start p-6">
               <h5 class="mb-2 text-xl font-medium text-slate-100">
                 Covid-19 Pandemic
@@ -31,7 +30,7 @@ const HazardOutrage = () => {
               </p>
             </div>
           </div>
-          <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
+          <div class="group relative bg-slate-800 shadow-lg md:max-w-xl lg:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
             <div class="flex flex-col justify-start p-6">
               <h5 class="mb-2 text-xl font-medium text-slate-100">
                 Hospital IT Outage
@@ -46,7 +45,7 @@ const HazardOutrage = () => {
               </p>
             </div>
           </div>
-          <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
+          <div class="group relative bg-slate-800 shadow-lg md:max-w-xl lg:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
             <div class="flex flex-col justify-start p-6">
               <h5 class="mb-2 text-xl font-medium text-slate-100">
                 Hurricane Katrina

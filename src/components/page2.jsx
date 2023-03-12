@@ -2,22 +2,22 @@ import React from "react";
 
 const HazardNoOutrage = () => {
   return (
-    <div className="flex overflow-x-hidden w-full h-screen bg-gray-800">
-      <div className="flex flex-col pl-20 pt-20">
-        <h1 className="text-7xl font-bold underline-offset-2 border-b-2 border-slate-200 text-slate-100">
+    <div className="flex overflow-x-hidden w-full h-100 lg:h-screen bg-gray-800">
+      <div className="flex flex-col lg:pl-20 pt-20">
+        <h1 className="text-7xl font-bold px-5 lg:px-0 lg:underline-offset-2 border-b-2 border-slate-200 text-slate-100">
           Hazard, No Outrage
         </h1>
-        <p className="text-slate-300 text-left mt-10 text-2xl">
+        <p className="text-slate-300 px-5 lg:px-0 text-left mt-10 text-2xl">
           If only people knew the facts, they would be up in arms. But they
           aren't, so what's wrong? In this situation, it falls on you to
           generate the momentum to get people to care about an issue. This can
           involve conveying evidence in a different way, or using a different
           medium to reach people.
         </p>
-        <h2 className="text-4xl font-bold underline-offset-2 border-b-2 border-slate-200 text-slate-100 mt-10">
+        <h2 className="text-4xl font-bold px-5 lg:px-0 underline-offset-2 border-b-2 border-slate-200 text-slate-100 mt-10">
           Examples
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10 px-5 lg:px-0 mb-5 lg:mb-0">
           <div class="group relative bg-slate-300 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
             <div class="flex flex-col justify-start p-6">
               <h5 class="mb-2 text-xl font-medium text-slate-800">Radon Gas</h5>
