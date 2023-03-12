@@ -1,7 +1,7 @@
 import React from "react";
 import BackToHomeButton from "./home_button";
 
-const Info = () => {
+const HazardOutrage = () => {
   return (
     <div className="flex overflow-x-hidden w-full h-screen bg-red-100">
       <div className="flex flex-col pl-20 pt-20">
@@ -65,4 +65,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default HazardOutrage;
