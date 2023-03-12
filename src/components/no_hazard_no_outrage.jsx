@@ -1,9 +1,8 @@
 import React from "react";
-import BackToHomeButton from "./home_button";
 
-const Info = () => {
+const NoHazardNoOutrage = () => {
   return (
-    <div className="flex overflow-x-hidden w-full h-screen bg-red-100">
+    <div className="flex overflow-x-hidden w-full h-screen bg-violet-100">
       <div className="flex flex-col pl-20 pt-20">
         <h1 className="text-7xl font-bold underline-offset-2 border-b-2 border-slate-700 text-slate-800">
           Hazard and Outrage
@@ -22,7 +21,7 @@ const Info = () => {
               <h5 class="mb-2 text-xl font-medium text-slate-100">
                 Covid-19 Pandemic
               </h5>
-              <p class="mb-4 text-base text-neutral-300">
+              <p class="mb-4 text-base text-slate-300">
                 As the coronavirus spread around the world, people became scared
                 in the face of uncertainty. Governments, international agencies
                 and health organizations held daily news conferences to update
@@ -34,28 +33,42 @@ const Info = () => {
           <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
             <div class="flex flex-col justify-start p-6">
               <h5 class="mb-2 text-xl font-medium text-slate-100">
-                Hospital IT Outage
+                Covid-19 Pandemic
               </h5>
               <p class="mb-4 text-base text-slate-300">
-                Suddenly the computer isn't turning on, and lives are at stake.
-                Patients, doctors and nurses are all clammering for answers, and
-                the IT department is still in the early stages of diagnosing the
-                problem. Now is the time to setup a communication pathway to
-                shield those who can solve the problem from the chaos, and work
-                out an action plan until things are back online.
+                As the coronavirus spread around the world, people became scared
+                in the face of uncertainty. Governments, international agencies
+                and health organizations held daily news conferences to update
+                the public on the latest information, and what the guidelines
+                were for staying safe.
               </p>
             </div>
           </div>
           <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
             <div class="flex flex-col justify-start p-6">
               <h5 class="mb-2 text-xl font-medium text-slate-100">
-                Hurricane Katrina
+                Covid-19 Pandemic
               </h5>
               <p class="mb-4 text-base text-slate-300">
-                When natural diaster strikes, conditions change rapidly and
-                communication lines can be cut off. Any message that goes out
-                may need to happen through word of mouth, so better make it
-                straight forward.
+                As the coronavirus spread around the world, people became scared
+                in the face of uncertainty. Governments, international agencies
+                and health organizations held daily news conferences to update
+                the public on the latest information, and what the guidelines
+                were for staying safe.
+              </p>
+            </div>
+          </div>
+          <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
+            <div class="flex flex-col justify-start p-6">
+              <h5 class="mb-2 text-xl font-medium text-slate-100">
+                Covid-19 Pandemic
+              </h5>
+              <p class="mb-4 text-base text-slate-300">
+                As the coronavirus spread around the world, people became scared
+                in the face of uncertainty. Governments, international agencies
+                and health organizations held daily news conferences to update
+                the public on the latest information, and what the guidelines
+                were for staying safe.
               </p>
             </div>
           </div>
@@ -65,4 +78,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default NoHazardNoOutrage;

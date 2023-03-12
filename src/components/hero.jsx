@@ -5,7 +5,7 @@ import OutrageNoHazard from "../assets/outrage_no_hazard.jpg";
 import NoOutrageNoHazard from "../assets/no_outrage_no_hazard.jpg";
 
 const Hero = () => (
-  <div class="flex min-h-screen min-w-screen  justify-center bg-neutral-800">
+  <div class="flex min-h-screen min-w-screen pt-5 justify-center bg-slate-100">
     <div class="grid grid-cols-1 gap-0 md:grid-cols-2 lg:grid-cols-4">
       <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
         <div class="h-full w-full">
