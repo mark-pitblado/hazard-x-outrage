@@ -1,21 +1,21 @@
 import React from "react";
 import Hero from "./components/hero";
 import Header from "./components/header";
-import Info from "./components/hazard_outrage";
-import HazardNoOutrage from "./components/hazard_no_outrage";
-import NoHazardOutrage from "./components/no_hazard_outrage";
-import NoHazardNoOutrage from "./components/no_hazard_no_outrage";
+import Page1 from "./components/page1";
+import Page2 from "./components/page2";
+import Page3 from "./components/page3";
+import Page4 from "./components/page4";
 import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Hero />
-      <Info />
-      <HazardNoOutrage />
-      <NoHazardOutrage />
-      <NoHazardNoOutrage />
+      <Page1 />
+      <Page2 />
+      <Page3 />
+      <Page4 />
       <Footer />
     </div>
   );

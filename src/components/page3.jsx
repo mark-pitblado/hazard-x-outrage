@@ -20,8 +20,8 @@ const NoHazardOutrage = () => {
         <h2 className="text-4xl font-bold underline-offset-2 border-b-2 border-slate-700 text-slate-800 mt-10">
           Examples
         </h2>
-        <div className="grid grid-cols-3 gap-4 pt-10">
-          <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10">
+          <div class="group relative bg-slate-800 shadow-lg max-w-m md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
             <div class="flex flex-col justify-start p-6">
               <h5 class="mb-2 text-xl font-medium text-slate-100">
                 5G Network Towers

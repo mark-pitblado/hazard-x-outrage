@@ -3,6 +3,7 @@ import HazardOutrageImage from "../assets/hazard_outrage.jpg";
 import HazardNoOutrageImage from "../assets/hazard_no_outrage.jpg";
 import OutrageNoHazard from "../assets/outrage_no_hazard.jpg";
 import NoOutrageNoHazard from "../assets/no_outrage_no_hazard.jpg";
+import { Link } from "react-scroll";
 
 const Hero = () => (
   <div class="flex min-h-screen min-w-screen pt-5 justify-center bg-slate-100">
