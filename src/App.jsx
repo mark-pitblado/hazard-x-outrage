@@ -6,8 +6,9 @@ import Page2 from "./components/page2";
 import Page3 from "./components/page3";
 import Page4 from "./components/page4";
 import Footer from "./components/footer";
+import { Route, Routes } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <div>
       <Header />
@@ -19,6 +20,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

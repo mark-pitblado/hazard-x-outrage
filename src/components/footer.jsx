@@ -9,21 +9,34 @@ import {
 
 const Footer = () => {
   return (
-    <div className="min-w-screen mx-auto py-16 px-4 grid lg:grid-cols-5 gap-3 bg-slate-100">
-      <div>
-        <h1 className="w-full text-3xl font-bold text-slate-800">
-          Hazard x Outrage
-        </h1>
-        <p className="py-4">A site designed for educational purposes only.</p>
-        <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
+    <footer class="bg-slate-100 text-center text-sm lg:text-left">
+      <div class="container p-6 text-slate-800">
+        <div class="grid gap-4 lg:grid-cols-2">
+          <div class="mb-6 md:mb-0">
+            <h5 class="mb-2 font-medium uppercase">Image Licensing</h5>
+
+            <p class="mb-4">
+              All images used on this site are from Unsplash and are licensed
+              for use.
+            </p>
+          </div>
+
+          <div class="mb-6 md:mb-0">
+            <h5 class="mb-2 font-medium uppercase">Source Code</h5>
+
+            <p class="mb-4">
+              The code for this site is open-source and available on Github{" "}
+              <a
+                className="underline"
+                href="https://github.com/arcticFox-git/hazard-x-outrage"
+              >
+                here.
+              </a>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

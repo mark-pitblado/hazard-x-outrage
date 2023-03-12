@@ -2,20 +2,20 @@ import React from "react";
 
 const NoHazardNoOutrage = () => {
   return (
-    <div className="flex overflow-x-hidden w-full h-screen bg-violet-100">
-      <div className="flex flex-col pl-20 pt-20">
-        <h1 className="text-7xl font-bold underline-offset-2 border-b-2 border-slate-700 text-slate-800">
+    <div className="flex overflow-x-hidden w-full h-100 lg:h-screen bg-violet-100">
+      <div className="flex flex-col lg:pl-20 pt-20">
+        <h1 className="text-7xl font-bold px-5 lg:px-0 lg:underline-offset-2 border-b-2 border-slate-700 text-slate-800">
           No Hazard, No Outrage
         </h1>
-        <p className="text-slate-800 text-left mt-10 text-2xl">
+        <p className="text-slate-800 px-5 lg:px-0 text-left mt-10 text-2xl">
           This is where you want to be. People are accurately evaluating a
           limited hazard and are not outraged by it. As tensions are not high,
           decisions between stakeholders can be made effectively.
         </p>
-        <h2 className="text-4xl font-bold underline-offset-2 border-b-2 border-slate-700 text-slate-800 mt-10">
+        <h2 className="text-4xl font-bold px-5 lg:px-0 underline-offset-2 border-b-2 border-slate-700 text-slate-800 mt-10">
           Examples
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-5 lg:px-0 mb-5 lg:mb-0 pt-10">
           <div class="group relative bg-slate-800 shadow-lg md:max-w-xl md:flex-row hover:scale-105 transform transition duration-300 ease-in-out">
             <div class="flex flex-col justify-start p-6">
               <h5 class="mb-2 text-xl font-medium text-slate-100">
