@@ -6,7 +6,7 @@ const HazardOutrage = () => {
       id="page1"
       className="flex overflow-x-hidden w-full h-100 lg:h-screen bg-red-100"
     >
-      <div className="flex flex-col lg:pl-20 pt-20">
+      <div className="flex flex-col lg:pl-20 pt-20 lg:pr-5">
         <h1 className="text-7xl font-bold px-5 lg:px-0 lg:underline-offset-2 border-b-2 border-slate-700 text-slate-800">
           Hazard and Outrage
         </h1>
