@@ -1,6 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 
-const HazardOutrage = () => {
+function HazardOutrage() {
+  const [showButton, setShowButton] = useState(false);
+
+  const handleScroll = () => {
+    // Get the current scroll position of the page
+    const scrollPosition =
+      window.pageYOffset || document.documentElement.scrollTop;
+
+    // If the user has scrolled down at least 100 pixels, show the button
+    if (scrollPosition > 100) {
+      setShowButton(true);
+    } else {
+      setShowButton(false);
+    }
+  };
+
+  const handleButtonClick = () => {
+    // Scroll the page to the top
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  // Attach the scroll event listener to the window
+  window.addEventListener("scroll", handleScroll);
+
   return (
     <div
       id="page1"
@@ -15,6 +41,17 @@ const HazardOutrage = () => {
           recognize, you are likely dealing with an emergency. During crisis,
           people want messaging that is consistent and authoritative.
         </p>
+        {showButton && (
+          <button
+            onClick={handleButtonClick}
+            className="fixed z-50 bottom-4 right-4 items-center rounded-full w-12 h-12 bg-slate-800 text-white hover:bg-slate-700"
+          >
+            <span class="sr-only">Scroll to top</span>
+            <span class="text-xl" aria-hidden="true">
+              &#9650;
+            </span>
+          </button>
+        )}
         <h2 className="text-4xl font-bold px-5 lg:px-0 underline-offset-2 border-b-2 border-slate-700 text-slate-800 mt-10">
           Examples
         </h2>
@@ -65,6 +102,6 @@ const HazardOutrage = () => {
       </div>
     </div>
   );
-};
+}
 
 export default HazardOutrage;
