@@ -2,7 +2,10 @@ import React from "react";
 
 const HazardNoOutrage = () => {
   return (
-    <div className="flex overflow-x-hidden w-full h-100 lg:h-screen bg-gray-800">
+    <div
+      id="page2"
+      className="flex overflow-x-hidden w-full h-100 lg:h-screen bg-gray-800"
+    >
       <div className="flex flex-col lg:pl-20 pt-20">
         <h1 className="text-7xl font-bold px-5 lg:px-0 lg:underline-offset-2 border-b-2 border-slate-200 text-slate-100">
           Hazard, No Outrage

@@ -1,10 +1,11 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
-
 const NoHazardOutrage = () => {
   return (
-    <div className="flex overflow-x-hidden w-full h-100 lg:h-screen bg-orange-300">
+    <div
+      id="page3"
+      className="flex overflow-x-hidden w-full h-100 lg:h-screen bg-orange-300"
+    >
       <div className="flex flex-col lg:pl-20 pt-20">
         <h1 className="text-7xl font-bold px-5 lg:px-0 lg:underline-offset-2 border-b-2 border-slate-700 text-slate-800">
           No Hazard, Outrage

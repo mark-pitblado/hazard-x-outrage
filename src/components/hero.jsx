@@ -3,7 +3,6 @@ import HazardOutrageImage from "../assets/hazard_outrage.jpg";
 import HazardNoOutrageImage from "../assets/hazard_no_outrage.jpg";
 import OutrageNoHazard from "../assets/outrage_no_hazard.jpg";
 import NoOutrageNoHazard from "../assets/no_outrage_no_hazard.jpg";
-import { Link } from "react-scroll";
 
 const Hero = () => (
   <div class="flex min-h-screen min-w-screen justify-center bg-slate-100">
@@ -24,9 +23,11 @@ const Hero = () => (
           <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             People are upset, and rightfully so. Time to move quickly.
           </p>
-          <button class="rounded-md bg-slate-800 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-            Learn More
-          </button>
+          <a href="#page1">
+            <button class="rounded-md bg-slate-800 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+              Learn More
+            </button>
+          </a>
         </div>
       </div>
       <div class="group relative cursor-pointer items-center justify-center overflow-hidden">
@@ -46,9 +47,11 @@ const Hero = () => (
             Something dangerous is happening, but nobody seems to care. You need
             to get the word out.
           </p>
-          <button class="rounded-md bg-slate-800 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-            Learn More
-          </button>
+          <a href="#page2">
+            <button class="rounded-md bg-slate-800 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+              Learn More
+            </button>
+          </a>
         </div>
       </div>
       <div class="group relative cursor-pointer items-center justify-center overflow-hidden">
@@ -68,9 +71,11 @@ const Hero = () => (
             You haven't communicated something clearly, and now people are
             worried. Listen to their concerns and address them.
           </p>
-          <button class="rounded-md bg-slate-800 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-            Learn More
-          </button>
+          <a href="#page3">
+            <button class="rounded-md bg-slate-800 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+              Learn More
+            </button>
+          </a>
         </div>
       </div>
       <div class="group relative cursor-pointer items-center justify-center overflow-hidden">
@@ -90,9 +95,11 @@ const Hero = () => (
             The sweet spot. Everyone is open for discussion and appropriate
             decisions can be made.
           </p>
-          <button class="rounded-md bg-slate-800 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-            Learn More
-          </button>
+          <a href="#page4">
+            <button class="rounded-md bg-slate-800 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
+              Learn More
+            </button>
+          </a>
         </div>
       </div>
     </div>
