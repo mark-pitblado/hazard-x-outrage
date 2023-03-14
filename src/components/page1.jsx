@@ -77,7 +77,7 @@ function HazardOutrage() {
               </h5>
               <p class="mb-4 text-base text-slate-300">
                 Suddenly the computer isn't turning on, and lives are at stake.
-                Patients, doctors and nurses are all clammering for answers, and
+                Patients, doctors and nurses are all clamouring for answers, and
                 the IT department is still in the early stages of diagnosing the
                 problem. Now is the time to setup a communication pathway to
                 shield those who can solve the problem from the chaos, and work

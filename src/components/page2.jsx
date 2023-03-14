@@ -55,7 +55,7 @@ const HazardNoOutrage = () => {
                 However, animal agriculture and over prescribing of antibiotics
                 are still ongoing issues. As there is no incentive for drug
                 companies to develop new antibiotics, there is a need to get
-                people to realise how drastically health will change if
+                people to realize how drastically health will change if
                 antibiotics cease to be effective.
               </p>
             </div>

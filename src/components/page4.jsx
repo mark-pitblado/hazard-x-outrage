@@ -60,8 +60,8 @@ const NoHazardNoOutrage = () => {
                   href="https://www.ctvnews.ca/health/additional-types-of-cancer-reported-in-people-with-breast-implants-u-s-fda-says-1.6061506"
                   className="underline"
                 >
-                  communication around the issue betwen provider and patient has
-                  increased
+                  communication around the issue between provider and patient
+                  has increased
                 </a>
                 , and there are additional warnings and guidelines where
                 appropriate.

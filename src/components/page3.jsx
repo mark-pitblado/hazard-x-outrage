@@ -14,7 +14,7 @@ const NoHazardOutrage = () => {
           What is all the fuss about? Suddenly there is a lot of noise about a
           particular issue that really isn't all that dangerous. Somewhere along
           the way, the message has become distorted, or there are concerns that
-          you didn't realise people had. Now is the time to listen and address
+          you didn't realize people had. Now is the time to listen and address
           why a topic is causing so much outrage. Until you do, the issue will
           continue to grow.
         </p>
@@ -51,7 +51,7 @@ const NoHazardOutrage = () => {
               </h5>
               <p class="mb-4 text-base text-slate-200">
                 Substances that are deemed "unnatural" can elicit backlash.
-                Gentically modified foods are a good example of this, with only{" "}
+                Genetically modified foods are a good example of this, with only{" "}
                 <a
                   href="https://www.pewresearch.org/science/2015/01/29/public-and-scientists-views-on-science-and-society/"
                   className="underline bold"
@@ -79,7 +79,7 @@ const NoHazardOutrage = () => {
               </h5>
               <p class="mb-4 text-base text-slate-200">
                 The belief that there is a causal link between vaccines and
-                autism is so prevalant, that there are{" "}
+                autism is so prevalent, that there are{" "}
                 <a
                   href="https://doi.org/10.7326/M18-2101"
                   className="underline bold"
