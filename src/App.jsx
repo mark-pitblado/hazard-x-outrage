@@ -7,18 +7,37 @@ import Page3 from "./components/page3";
 import Page4 from "./components/page4";
 import Footer from "./components/footer";
 import { Route, Routes } from "react-router-dom";
+import Helmet from "react-helmet";
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <Page1 />
-      <Page2 />
-      <Page3 />
-      <Page4 />
-      <Footer />
-    </div>
+    <>
+      <Helmet>
+        <title>Hazard and Outrage Framework</title>
+        <meta
+          name="description"
+          content="A framework for understanding how people react to hazards."
+        />
+        <meta
+          name="keywords"
+          content="public health, hazard, outrage, framework, communication"
+        />
+        <script
+          defer
+          data-domain="hazardxoutrage.info"
+          src="https://analytics.markpitblado.me/js/script.js"
+        ></script>
+      </Helmet>
+      <div>
+        <Header />
+        <Hero />
+        <Page1 />
+        <Page2 />
+        <Page3 />
+        <Page4 />
+        <Footer />
+      </div>
+    </>
   );
 };
 
