@@ -28,7 +28,7 @@ const Footer = () => {
               The code for this site is open-source and available on Github{" "}
               <a
                 className="underline"
-                href="https://github.com/arcticFox-git/hazard-x-outrage"
+                href="https://github.com/mark-pitblado/hazard-x-outrage"
               >
                 here.
               </a>
