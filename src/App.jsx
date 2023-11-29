@@ -22,11 +22,8 @@ const App = () => {
           name="keywords"
           content="public health, hazard, outrage, framework, communication"
         />
-        <script
-          defer
-          data-domain="hazardxoutrage.info"
-          src="https://analytics.markpitblado.me/js/script.js"
-        ></script>
+<script defer data-domain="showcase1.markpitblado.me" src="https://plausible.io/js/script.js"></script>
+
       </Helmet>
       <div>
         <Header />
