@@ -6,29 +6,30 @@ import Page2 from "./components/page2";
 import Page3 from "./components/page3";
 import Page4 from "./components/page4";
 import Footer from "./components/footer";
-import { HelmetProvider } from "react-helmet-async";
+
+document.title = "Hazard and Outrage Framework";
+
+const metaDescription = document.createElement("meta");
+metaDescription.name = "description";
+metaDescription.content =
+  "A framework for understanding how people react to hazards.";
+document.head.appendChild(metaDescription);
+
+const metaKeywords = document.createElement("meta");
+metaKeywords.name = "keywords";
+metaKeywords.content =
+  "public health, hazard, outrage, framework, communication";
+document.head.appendChild(metaKeywords);
+
+const script = document.createElement("script");
+script.defer = true;
+script.dataset.domain = "showcase1.markpitblado.me";
+script.src = "https://plausible.io/js/script.js";
+document.head.appendChild(script);
 
 const App = () => {
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>Hazard and Outrage Framework</title>
-          <meta
-            name="description"
-            content="A framework for understanding how people react to hazards."
-          />
-          <meta
-            name="keywords"
-            content="public health, hazard, outrage, framework, communication"
-          />
-          <script
-            defer
-            data-domain="showcase1.markpitblado.me"
-            src="https://plausible.io/js/script.js"
-          ></script>
-        </Helmet>
-      </HelmetProvider>
       <div>
         <Header />
         <Hero />
