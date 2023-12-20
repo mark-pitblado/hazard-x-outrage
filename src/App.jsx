@@ -6,25 +6,29 @@ import Page2 from "./components/page2";
 import Page3 from "./components/page3";
 import Page4 from "./components/page4";
 import Footer from "./components/footer";
-import { Route, Routes } from "react-router-dom";
-import Helmet from "react-helmet";
+import { HelmetProvider } from "react-helmet-async";
 
 const App = () => {
   return (
     <>
-      <Helmet>
-        <title>Hazard and Outrage Framework</title>
-        <meta
-          name="description"
-          content="A framework for understanding how people react to hazards."
-        />
-        <meta
-          name="keywords"
-          content="public health, hazard, outrage, framework, communication"
-        />
-<script defer data-domain="showcase1.markpitblado.me" src="https://plausible.io/js/script.js"></script>
-
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>Hazard and Outrage Framework</title>
+          <meta
+            name="description"
+            content="A framework for understanding how people react to hazards."
+          />
+          <meta
+            name="keywords"
+            content="public health, hazard, outrage, framework, communication"
+          />
+          <script
+            defer
+            data-domain="showcase1.markpitblado.me"
+            src="https://plausible.io/js/script.js"
+          ></script>
+        </Helmet>
+      </HelmetProvider>
       <div>
         <Header />
         <Hero />
